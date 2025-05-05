@@ -34,6 +34,8 @@ jobs:
 
       - name: Update copyright dates
         id: update-dates
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set +e
           bdip update-copyright-dates --git .
@@ -56,6 +58,7 @@ jobs:
           YEAR=$(date +%Y)
           gh pr create \
             --title "Update copyright dates to $YEAR" \
+            --body "This PR updates the copyright dates to $YEAR." \
             --base master \
             --head update-copyright-dates \
             --label "maintenance"
