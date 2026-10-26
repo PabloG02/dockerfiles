@@ -1,3 +1,9 @@
+---
+title: Singularity
+description: Learn how to run Docker images from the Bioinformatics Docker Images Project on HPC clusters using Singularity for CLI and GUI applications.
+image: images/singularity.webp
+---
+
 # Using our Docker images with Singularity
 
 [Singularity](https://sylabs.io/docs/) is a container platform specially created to run complex applications on HPC clusters in a simple, portable, and reproducible way, with a focus on security. As described [in the documentation](https://sylabs.io/guides/3.5/user-guide/singularity_and_docker.html), Singularity has interoperability with Docker.

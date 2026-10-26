@@ -1,3 +1,9 @@
+---
+title: Docker in Docker
+description: Learn how to run Docker commands inside Docker containers and share data between sibling containers by mounting the Docker socket.
+image: images/docker-in-docker.webp
+---
+
 # Running Docker commands inside Docker containers
 
 Sometimes we need to run Docker commands inside Docker containers. For instance, when developing a pipeline that is provided as a Docker image and that runs dependencies using Docker commands.

@@ -1,3 +1,9 @@
+---
+title: Docker GUI on macOS
+description: Step-by-step guide explaining how to run graphical applications from Bioinformatics Docker Images on macOS using XQuartz, Docker Desktop, and X11 forwarding.
+image: images/docker-gui-mac.png
+---
+
 # Running GUI applications from our Docker images on macOS
 
 Docker Desktop allows you to run our Bioinformatics Docker Images on macOS. However, running graphical applications requires additional configuration because Linux containers cannot directly access the macOS graphical environment.

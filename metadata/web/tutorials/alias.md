@@ -1,3 +1,9 @@
+---
+title: Bash Aliases
+description: Learn how to create bash aliases in .bashrc to quickly run CLI and GUI Docker images from the Bioinformatics Docker Images Project.
+image: images/alias.avif
+---
+
 # Creating `alias` in `.bashrc` to be used as shortcut for a (complete) command
 
 `.bashrc` is the configuration file for bash, a linux shell/command interpreter.
